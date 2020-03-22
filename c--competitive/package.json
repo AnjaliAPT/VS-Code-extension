@@ -1,0 +1,30 @@
+{
+  "name": "c--competitive",
+  "displayName": "c++competitive",
+  "description": "Simple template and snippet generator for competitive programming in C/C++",
+  "version": "1.0.0",
+  "publisher": "akash",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AKASHCS50/VS-Code-extension"
+  },
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "c",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "c++",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
